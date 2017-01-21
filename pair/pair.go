@@ -115,7 +115,7 @@ func (pair *Int32Pair)right() int32 {
 	return pair[1]
 }
 
-type Int64Pair [2]int
+type Int64Pair [2]int64
 
 func (pair *Int64Pair)left() int64 {
 	return pair[0]
