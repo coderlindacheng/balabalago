@@ -1,4 +1,4 @@
-package main
+package pair
 
 type Pair [2]interface{}
 
