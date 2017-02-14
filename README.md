@@ -1,5 +1,5 @@
-# ldcutils
+# balabalago
 
 工具包
 
-go get github.com/coderlindacheng/ldcutils
+go get github.com/coderlindacheng/balabalago
