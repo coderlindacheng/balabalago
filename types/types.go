@@ -1,4 +1,4 @@
-package pair
+package types
 
 type Pair [2]interface{}
 
@@ -148,4 +148,18 @@ func (pair *Float64Pair) Left() float64 {
 
 func (pair *Float64Pair) Right() float64 {
 	return pair[1]
+}
+
+type TripleInt [3]int
+
+func (p *TripleInt) Left() int {
+	return p[0]
+}
+
+func (p *TripleInt) Mid() int {
+	return p[1]
+}
+
+func (p *TripleInt) Right() int {
+	return p[2]
 }

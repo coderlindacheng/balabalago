@@ -19,7 +19,7 @@ type errorWrapper struct {
 
 func (p *errorWrapper) Error() string {
 	if p.error != nil {
-		return p.error.Error() + UNIX_LINE_SEPARATOR + p.string
+		return p.error.Error() + SPACE + p.string
 	} else {
 		return p.string
 	}
