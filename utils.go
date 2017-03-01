@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"os"
 	"fmt"
-	"github.com/coderlindacheng/balabalago/special_string"
 )
 
 func Pause() {
